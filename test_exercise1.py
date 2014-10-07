@@ -115,8 +115,3 @@ def test_cornercase_input():
     """
     assert grade_to_gpa(90) == 4.0
     assert grade_to_gpa(70) == 2.7
-
-test_float_input()
-test_cornercase_input()
-test_percentage_grade()
-test_letter_grade()

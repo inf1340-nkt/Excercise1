@@ -63,6 +63,3 @@ def test_input():
 
     with pytest.raises(ValueError):
         checksum("0000001c00")
-
-test_checksum()
-test_input()
