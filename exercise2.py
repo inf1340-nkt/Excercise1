@@ -60,13 +60,13 @@ def checksum (upc):
     for i in range(0,len(odd)):
         result = result + odd[i]
 
-    result = result * 3
+    result *= 3
 
     # This is to add even numbered digits
     for i in range(0, (len(even)-1)):
         result = result + even[i]
 
-    result = result % 10
+    result %= 10
     if result != 0:
         result = 10 - result
 

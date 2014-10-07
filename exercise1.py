@@ -68,7 +68,7 @@ def grade_to_gpa(grade):
         # grade is in between
 
         for key, value in dic_num.items():
-            if(grade >= key[0] and grade < (key[1] + 1)):
+            if key[0] <= grade < (key[1] + 1):
                 return value
 
         # if not found in the dictionary, then must of out of range
